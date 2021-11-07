@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("images/bg1.jpg");
+
+}
+.progressBar{
+    width: 98%;
+    height: 30px;
+    border: 1px #000 solid;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+#progressBarNum{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    color:#000;
+    display: block;
+    z-index: 999;
+}
+.progressBarItem{
+    width: 2%;
+    height: 30px;
+    background: #f00;
+    border-left: 1px #fff solid;
+}
+.qaAll{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+}
+.qa{
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    border:1px #000 solid;
+    z-index: 999;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.send{
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    outline: none;
+    border:none;
+    width: 80%;
+    height: 40px;
+    margin:auto;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background:#BE3433;
+}
+.error{
+    color:#f00;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    z-index: 9999;
+    opacity: 0;
+    transition: .5s;
+    display: none;
+}
+.bingo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:#A6E224;
+    z-index: 9999;
+    transition: .5s;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    opacity: 0;    
+}
+
+#player{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+#pass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    background: #000;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    z-index: 99999999999999999999999;
+    opacity: 0;
+    transition: 1s;
+}
+#pass>a{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-top: 50px;
+    background-color: #BE3433;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#squid{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
