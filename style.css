@@ -34,7 +34,7 @@ embed{
     z-index: 999;
 }
 .progressBarItem{
-    width: 2%;
+    width: 1%;
     height: 30px;
     background: #f00;
     border-left: 1px #fff solid;
