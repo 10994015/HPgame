@@ -4,7 +4,8 @@ var progressBar = document.getElementById('progressBar');
 var progressBarClass = document.getElementsByClassName('progressBar');
 var squid = document.getElementById('squid');
 var player = document.getElementById('player');
-main.addEventListener("click",addBar);
+var hiddenLayer = document.getElementById('hiddenLayer');
+hiddenLayer.addEventListener("click",addBar);
 
 html = '';
 times = 0;
