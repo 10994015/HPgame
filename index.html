@@ -13,6 +13,7 @@
         main{
             background: #FECAC9;
             position: relative;
+
         }
         main>img{
             
@@ -24,16 +25,21 @@
             position: absolute;
             display: block;
             bottom: 100px;
-            left:50px;
-            width: 200px;
-            height: 50px;
+            left:calc(50% - 180px);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
             background-color: #BF3334;
             text-align: center;
-            line-height: 50px;
+            line-height: 150px;
             color:#fff;
             font-weight: 600;
-            border-radius: 5px;
             text-decoration: none;
+            font-size: 1.8rem;
+        }
+        main > a:hover{
+            background-color: #862424;
+            transition: .5s;
         }
     </style>
 </head>

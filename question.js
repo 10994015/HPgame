@@ -251,11 +251,18 @@ var option5 = document.getElementsByClassName('option5');
 var option6 = document.getElementsByClassName('option6');
 var option7 = document.getElementsByClassName('option7');
 var squid = document.getElementById('squid');
+
+var hint1 = document.getElementById("hint1");
+var hint2 = document.getElementById("hint2");
+var hint3 = document.getElementById("hint3");
+var hint4 = document.getElementById("hint4");
+var hint5 = document.getElementById("hint5");
+var hint6 = document.getElementById("hint6");
 question1.innerHTML = test1[num1].q;
 q1a.innerHTML = test1[num1].Options_A;
 q1b.innerHTML = test1[num1].Options_B;
 q1c.innerHTML = test1[num1].Options_C;
-
+hint1.innerHTML =  test1[num1].hint;
 send[0].addEventListener("click",()=>{
     if(option1[test1[num1].ans].checked){
         error[0].style.display="none";
@@ -282,6 +289,8 @@ question2.innerHTML = test2[num2].q;
 q2a.innerHTML = test2[num2].Options_A;
 q2b.innerHTML = test2[num2].Options_B;
 q2c.innerHTML = test2[num2].Options_C;
+hint2.innerHTML =  test2[num2].hint;
+
 send[1].addEventListener("click",()=>{
     if(option2[test2[num2].ans].checked){
         error[1].style.display="none";
@@ -305,6 +314,7 @@ question3.innerHTML = test3[num3].q;
 q3a.innerHTML = test3[num3].Options_A;
 q3b.innerHTML = test3[num3].Options_B;
 q3c.innerHTML = test3[num3].Options_C;
+hint3.innerHTML =  test3[num3].hint;
 send[2].addEventListener("click",()=>{
     if(option3[test3[num3].ans].checked){
         error[2].style.display="none";
@@ -328,6 +338,8 @@ question4.innerHTML = test4[num4].q;
 q4a.innerHTML = test4[num4].Options_A;
 q4b.innerHTML = test4[num4].Options_B;
 q4c.innerHTML = test4[num4].Options_C;
+hint4.innerHTML =  test4[num4].hint;
+
 send[3].addEventListener("click",()=>{
     if(option4[test4[num4].ans].checked){
         error[3].style.display="none";
@@ -349,6 +361,8 @@ question5.innerHTML = test5[num5].q;
 q5a.innerHTML = test5[num5].Options_A;
 q5b.innerHTML = test5[num5].Options_B;
 q5c.innerHTML = test5[num5].Options_C;
+hint5.innerHTML =  test5[num5].hint;
+
 send[4].addEventListener("click",()=>{
     if(option5[test5[num5].ans].checked){
         error[4].style.display="none";
@@ -371,6 +385,8 @@ question6.innerHTML = test6[num6].q;
 q6a.innerHTML = test6[num6].Options_A;
 q6b.innerHTML = test6[num6].Options_B;
 q6c.innerHTML = test6[num6].Options_C;
+hint6.innerHTML =  test6[num6].hint;
+
 send[5].addEventListener("click",()=>{
     if(option6[test6[num6].ans].checked){
         error[5].style.display="none";
