@@ -168,6 +168,7 @@ var test6 =[
         "Options_A":"當然會，請自己獨居。",
         "Options_B":"不會，愛滋病毒是需要透過體液、血液的交換才有比較高的感染風險，有特定的傳染途徑。",
         "Options_C":"當然會，世界無奇不有，甚麼狀況都會發生。",
+        "Options_D":"",
         "ans":1,
         "hint":"小知識：愛滋病毒是透過血液或體液(精液、陰道分泌物、母乳)接觸黏膜或皮膚傷口而傳染的，例如：不安全性行為、共用針具(針頭、針筒、稀釋液)、感染愛滋病毒的母親哺餵母乳。"
     },
@@ -176,6 +177,7 @@ var test6 =[
         "Options_A":"無法預防。",
         "Options_B":"太害羞，不回答。",
         "Options_C":"全程正確使用保險套。",
+        "Options_D":"",
         "ans":2,
         "hint":"小知識：愛滋病毒會透過不安全性行為而傳染，因此全程正確使用保險套能有效預防性病及愛滋病毒。"
     },
@@ -183,8 +185,10 @@ var test6 =[
         "q":"456先生參加魷魚遊戲，與所有參賽者同住一室。關於愛滋病，下列敘述何者為是?",
         "Options_A":"一般人誤以為同性戀者、性工作者是感染的高危險群，這是錯誤的。因為任何人只要從事可能造成傳染的風險行為，即有可能感染，並不僅僅侷限哪些族群，只有風險行為，沒有危險族群！",
         "Options_B":"性行為中只要沒有全程正確的使用保險套，都可能傳染愛滋病毒。",
-        "Options_C":"以上皆是",
-        "ans":2
+        "Options_C":"曾有性行為者應至少進行1次愛滋篩檢；持續有無套性行為者，每年至少篩檢1次；若有感染風險行為（如與人共用針具、多重性伴侶、合併使用成癮性藥物、感染其他性傳染疾病等），則建議每3到6個月篩檢一次。",
+        "Options_D":"以上皆是",
+        "ans":3,
+        "hint":""
     },
 ]
 
@@ -235,9 +239,11 @@ var question6 = document.getElementById('question6');
 var q6a = document.getElementById('q6a');
 var q6b = document.getElementById('q6b');
 var q6c = document.getElementById('q6c');
+var q6d = document.getElementById('q6d');
 var a6a = document.getElementById('q6-a');
 var a6b = document.getElementById('q6-b');
 var a6c = document.getElementById('q6-c');
+var a6d = document.getElementById('q6-d');
 
 var bingo = document.getElementsByClassName('bingo')[0];
 var error = document.getElementsByClassName('error');
@@ -386,7 +392,11 @@ q6a.innerHTML = test6[num6].Options_A;
 q6b.innerHTML = test6[num6].Options_B;
 q6c.innerHTML = test6[num6].Options_C;
 hint6.innerHTML =  test6[num6].hint;
-
+if(test6[num6].Options_D==""){
+    a6d.style.display = "none";
+}else{
+    q6d.innerHTML = test6[num6].Options_D;
+}
 send[5].addEventListener("click",()=>{
     if(option6[test6[num6].ans].checked){
         error[5].style.display="none";
