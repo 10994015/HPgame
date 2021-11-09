@@ -5,6 +5,7 @@ var progressBarClass = document.getElementsByClassName('progressBar');
 var squid = document.getElementById('squid');
 var player = document.getElementById('player');
 var hiddenLayer = document.getElementById('hiddenLayer');
+var hiddenQa = document.getElementsByClassName('hiddenQa')[0];
 hiddenLayer.addEventListener("click",addBar);
 
 html = '';
@@ -30,7 +31,7 @@ function addBar(){
     progressBarNum.innerHTML = times+"%";
     
     
-    if(times==14){
+    if(times==2){
         qaAll[0].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
