@@ -10,13 +10,16 @@ hiddenLayer.addEventListener("click",addBar);
 html = '';
 times = 0;
 src=1;
+pos = 0;
 squid.src="./images/squid1.png";
 player.src="./images/player"+src+".png";
 
 function addBar(){
     html += '<div class="progressBarItem"></div>';
     progressBar.innerHTML = html;
+    pos-=5;
     
+    main.style.backgroundPosition  ="0px "+pos+"px";
     src+=1;
     if(src>3){
         src=1;
