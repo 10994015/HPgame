@@ -67,8 +67,15 @@ function addBar(){
             squid.src="./images/squid3.png";
         },200)
     }
-    if(times==100){
+    if(times==2){
         qaAll[5].style.display = "flex";
+        squid.src="./images/squid2.png";
+        setTimeout(()=>{
+            squid.src="./images/squid3.png";
+        },200)
+    }
+    if(times==100){
+        qaAll[6].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";

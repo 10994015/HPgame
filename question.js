@@ -5,7 +5,7 @@ var test1 =[
         "Options_B":"用流動的水，沖燙傷部位至少20-30分鐘。",
         "Options_C":"用流動水沖洗一下後，即可繼續吃泡麵。",
         "ans":1,
-        "hint":"小知識：用大量流動的冷水降溫，流動的冷水，因為持續流動，可以有效地帶走體表溫度，是局部降溫最安全又有效的方式之一，但要注意，水流不要很強，不然會沖破水泡。"
+        "hint":"【健康知識】<br>用大量流動的冷水降溫，可以有效地帶走體表溫度，是局部降溫最安全又有效的方式之一。"
     },
     {
         "q":"456先生在吃韓式魷魚泡麵，一不小心把整碗熱湯灑在大腿上了。在處理完燙傷的大腿後，發現腿毛下的皮膚，有紅紅的一大片，請問這是幾度燙傷？",
@@ -13,7 +13,7 @@ var test1 =[
         "Options_B":"5度",
         "Options_C":"10度",
         "ans":0,
-        "hint":"小知識：範圍主要在上皮表層，會出現紅腫、疼痛的症狀，無水泡產生。"
+        "hint":"【健康知識】<br>一度燙傷範圍主要在表皮淺層，會出現紅腫及疼痛的症狀，無水泡產生。"
     },
     {
         "q":"456先生正在工作坊熬夜做魷魚模型，被美工刀劃到左手食指和中指，瞬間傷口不斷滲血，請問以下敘述何者正確？",
@@ -21,7 +21,7 @@ var test1 =[
         "Options_B":"不用理會，時間會帶走一切。",
         "Options_C":"用急救箱內的紗布加壓止血。",
         "ans":2,
-        "hint":"小知識：為什麼要加壓呢?想想看，流速很快的河面上不會結冰，如果血流速很快，就會繼續一直流，傷口處不會形成血塊，傷口就無法止血。加壓減緩血流速度後，才有機會在傷口處形成血塊並阻止血液外流喔。"
+        "hint":"【健康知識】<br>加壓減緩血流速度後，才有機會在傷口處形成血塊，阻止血液外流。<br>一般還會配合抬高患肢，使受傷部位高於心臟喔"
     },
 
 ]
@@ -31,9 +31,9 @@ var test2 =[
         "q":"456先生在玩打彈珠遊戲時，發現視力模糊看不清楚，都丟不進指定位置。請問，近視幾度稱為高度近視?",
         "Options_A":"熱愛105度的你",
         "Options_B":"500度",
-        "Options_C":"1314度",
+        "Options_C":"365度",
         "ans":1,
-        "hint":"小知識：世界衛生組織定義高度近視為500度，一旦成為高度近視群族，易發生併發症：白內障、視網膜剝離、黃斑部病變、青光眼等發生風險相對提高。"
+        "hint":"【健康知識】<br>近視是一種疾病，一旦成為高度近視群族，就容易發生合併症，包括：白內障、視網膜剝離、黃斑部病變、青光眼等。"
     },
     {
         "q":"456先生在玩打彈珠遊戲時，發現視力模糊看不清楚，都丟不進指定位置。衛生福利部建議多久至合格眼科診所，執行視力檢查？",
@@ -41,75 +41,75 @@ var test2 =[
         "Options_B":"每半年至1年",
         "Options_C":"不一定，有空就去。",
         "ans":1,
-        "hint":"小知識：眼睛和其他部位一樣需要定期檢查，尤其高度近視的族群更不能輕忽。許多眼疾初期症狀不明顯，待症狀明顯時恐已造成嚴重的眼睛傷害。"
+        "hint":"【健康知識】<br>眼睛和其他部位一樣需要定期檢查，尤其高度近視的族群更不能輕忽。<br>許多眼疾初期症狀不明顯，待症狀明顯時恐已造成嚴重的眼睛傷害。"
     },
     {
         "q":"456先生在玩打彈珠遊戲時，發現視力模糊看不清楚，都丟不進指定位置。中原大學衛生保健組宣導護眼標語：NOTES 3010，其中S(Safety)是指安全用眼距離為多少？",
         "Options_A":"3-4公分，近一點感覺比較好。",
-        "Options_B":"35-40公分",
+        "Options_B":"35-40 公分，不近不遠剛剛好。",
         "Options_C":"50-100公分，距離會帶來美感",
         "ans":1,
-        "hint":"小知識：近視造成的主因常為：長時間、近距離、用眼不當，為避免近視或度數增加，別忘了保持35-40公分距離喔。"
+        "hint":"【健康知識】<br>近視造成的主因常為：長時間、近距離、用眼不當，為避免近視或度數增加。<br>別忘了保持 35-40 公分距離喔，亦鼓勵用眼 30 分鐘即休息 10 分鐘"
     },
 ]
 var test3 =[
     {
-        "q":"456先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到魷魚醫院急診室掛號。請問，於COVID-19疫情期間，在室內應保持多少安全社交距離？",
+        "q":"456 先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到花枝醫院急診室掛號。請問，於 COVID-19 疫情期間，在室內應保持多少安全社交距離？",
         "Options_A":"1.5公分，近一點才有安全感。",
-        "Options_B":"1.5公尺，不近不遠剛剛好。",
+        "Options_B":"1.5 公尺，適當距離你我都好。",
         "Options_C":"1.5公里，遠一點對大家都好。",
         "ans":1,
-        "hint":"小知識：衛生福利部疾病管制署公布防疫因應指引中，社交距離室內應保持1.5公尺、室外保持1公尺。"
+        "hint":"【健康知識】<br>依據衛生福利部疾病管制署防疫指引，社交距離室內應保持 1.5 公尺、室外保持 1 公尺。"
     },
     {
         "q":"456先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到魷魚醫院急診室掛號。進出醫院時，456先生發現人人都戴著口罩，是為甚麼？",
         "Options_A":"防止病毒的飛沫傳染",
         "Options_B":"大家都戴，怎麼不能輸。",
-        "Options_C":"搭配全身造型好潮好好看。",
+        "Options_C":"衛保組送的口罩好好看。",
         "ans":0,
-        "hint":"小知識：戴口罩目的是為了有效防堵及預防傳染病的傳播。"
+        "hint":"【健康知識】<br>戴口罩目的是為了有效防堵及預防傳染病的傳播。<br>口罩正確配戴步驟：開(打開)、戴(戴上)、壓(輕壓鼻樑片)、密(確認密合度)。"
     },
     {
-        "q":"456先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到魷魚醫院急診室掛號。下列哪一個症狀非COVID-19的臨床表徵?",
-        "Options_A":"咳嗽",
-        "Options_B":"嗅/味覺喪失",
-        "Options_C":"局部瘀青",
+        "q":"456 先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到花枝醫院急診室掛號。下列哪一個症狀「非」COVID-19 的臨床表徵?",
+        "Options_A":"咳嗽、胸悶、流鼻水。",
+        "Options_B":"味/嗅覺喪失、不明原因腹瀉。",
+        "Options_C":"局部瘀青腫脹。",
         "ans":2,
-        "hint":"小知識：COVID-19臨床症狀為發燒、乾咳、倦怠、呼吸急促及其他症狀(肌肉痛、頭痛、喉痛、腹瀉、嗅/味覺喪失)等"
+        "hint":"【健康知識】<br>COVID-19 臨床症狀為發燒、咳嗽、胸悶、倦怠、呼吸急促及其他症狀(肌肉痛、頭痛、喉痛、流鼻水、不明原因腹瀉、味/嗅覺喪失)等。"
     },
     {
-        "q":"456先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到魷魚醫院急診室掛號。456先生於醫院量測耳溫為37.1度，請問判讀為？",
+        "q":"456 先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到花枝醫院急診室掛號。醫院量測耳溫為 37.1℃，請問判讀為？",
         "Options_A":"體溫偏低",
         "Options_B":"體溫正常",
         "Options_C":"發燒",
         "ans":1,
-        "hint":"發燒定義額溫≧37.5度；耳溫≧38度"
+        "hint":"【健康知識】<br>依據衛生福利部疾病管制署規範，發燒定義：額溫≧37.5℃；耳溫≧38℃。"
     },
     {
-        "q":"456先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到魷魚醫院急診室掛號。請問，因應COVID-19防疫措施中，下列何者為非?",
-        "Options_A":"配戴口罩並保持室外3.8公里社交距離。",
+        "q":"456 先生在下雨天進行戶外魷魚遊戲，導致咳嗽、流鼻水及喉嚨痛，因此到花枝醫院急診室掛號。請問，因應 COVID-19 防疫措施中，下列何者為非?",
+        "Options_A":"配戴口罩並保持室外3.8公尺社交距離。",
         "Options_B":"使用肥皂濕洗手及75%酒精乾洗手，都是有效清潔手部的方法。",
         "Options_C":"接種COVID-19疫苗是預防感染、避免重症與死亡最有效的方式。",
         "ans":0,
-        "hint":"小知識：勤洗手、戴口罩、量體溫、社交距離(室內1.5公尺、室外1公尺)、實聯制、環境消毒及疫苗注射，能有效預防及控制COVID-19 之傳播。 "
+        "hint":"【健康知識】<br>勤洗手、戴口罩、量體溫、保持社交距離(室內 1.5 公尺、室外 1 公尺)、實聯制、環境消毒及疫苗注射，皆能有效預防 COVID-19 之傳播。"
     },
 ]
 var test4 =[
     {
-        "q":"456先生因熬夜做魷魚模型，導致切割傷，傷口正復原中。醫師建議應多補充維生素C，促進傷口癒合，請問哪一類食物含有豐富的維生素C？",
+        "q":"456 先生因熬夜做魷魚模型，導致切割傷，傷口正復原中。醫師建議應多補充維生素 C 促進傷口癒合，請問哪一類食物含有豐富的維生素 C？",
         "Options_A":"豬肉、雞肉",
         "Options_B":"橘子、芭樂",
         "Options_C":"牛奶、優格",
         "ans":1,
-        "hint":"小知識：吃水果可以獲得豐富維生素及礦物質，以新鮮、當季為最佳選擇，切勿以蔬果汁取代新鮮水果。"
+        "hint":"【健康知識】<br>吃水果可以獲得豐富維生素及礦物質，請以新鮮、當季為最佳選擇，切勿以蔬果汁取代新鮮水果喔。"
     },
     {
         "q":"456先生因熬夜做魷魚模型，導致切割傷，傷口正復原中。營養師給予的健康飲食建議中，下列哪一項最適當？",
-        "Options_A":"為補充蛋白質，多吃好大大雞排。",
+        "Options_A":"為補充蛋白質，多吃比臉大的雞排",
         "Options_B":"為補充水分，多喝珍珠奶茶加椰果。",
         "Options_C":"為補充維生素，多吃水果及蔬菜。",
         "ans":2,
-        "hint":"小知識：油炸食物及含糖飲料為高熱量食物，攝取過多易導致肥胖、糖尿病、高血壓等慢性疾病。"
+        "hint":"【健康知識】<br>油炸食物及含糖飲料為高熱量食物，攝取過多不但不能幫助傷口癒合，反而易導致肥胖、糖尿病、高血壓等慢性疾病問題。"
     },
     {
         "q":"456先生因熬夜做魷魚模型，導致切割傷，傷口正復原中。請問，下列哪一組食物搭配較適合於傷口恢復期攝取？",
@@ -117,7 +117,7 @@ var test4 =[
         "Options_B":"鮪魚吐司+無糖豆漿",
         "Options_C":"勁辣雞腿堡+可樂",
         "ans":1,
-        "hint":"小知識：傷口癒合期應補充優質蛋白質及維生素C，並避免油炸、辛辣之食物。"
+        "hint":"【健康知識】<br>傷口癒合期應補充優質蛋白質及維生素 C，並避免油炸、辛辣之食物。"
     },
     {
         "q":"456先生在玩打彈珠遊戲時，發現視力模糊看不清楚，都丟不進指定位置。營養師建議，應多補充哪項「護眼」營養素，可預防視力惡化？",
@@ -125,15 +125,15 @@ var test4 =[
         "Options_B":"鈣",
         "Options_C":"葉黃素",
         "ans":2,
-        "hint":"小知識：葉黃素可抗氧化，減少視網膜損傷，保護黃斑部。"
+        "hint":"【健康知識】<br>葉黃素可抗氧化，減少視網膜損傷，保護黃斑部。"
     },
     {
         "q":"456先生在玩打彈珠遊戲時，發現視力模糊看不清楚，都丟不進指定位置。醫師建議應多補充葉黃素，預防黃斑部病變，避免視力惡化，請問什麼食物含有豐富的葉黃素？",
         "Options_A":"玉米",
-        "Options_B":"鮪魚",
-        "Options_C":"橄欖油",
+        "Options_B":"油漬鮪魚罐頭",
+        "Options_C":" 現炸豬油",
         "ans":0,
-        "hint":"小知識：除了玉米，深綠色蔬菜、蛋黃、地瓜、南瓜也都含有豐富的葉黃素。"
+        "hint":"【健康知識】<br>除了玉米，深綠色蔬菜、蛋黃、地瓜、南瓜也都含有豐富的葉黃素。"
     },
 ]
 var test5 =[
@@ -142,35 +142,39 @@ var test5 =[
         "Options_A":"沒錯，電子煙戒菸效果良好。",
         "Options_B":"不能，電子煙對健康有害，大多含有尼古丁及多種致癌有害物質，與紙菸一樣會讓使用者成癮，且會產生二手或三手煙危害，嚴重影響健康。",
         "Options_C":"看情況，使用很多才能幫助戒菸。",
+        "Options_D":"",
         "ans":1,
-        "hint":"小知識：世界衛生組織(WHO)提出：「沒有證據證明電子煙是安全且可以幫助戒菸」。電子煙業者宣稱能幫助戒菸是宣傳手法。依據衛生福利部年受理電子煙檢體檢驗結果顯示，有8成電子煙含有具成癮性之尼古丁。"
+        "hint":"【健康知識】<br>世界衛生組織(WHO)提出：「沒有證據證明電子煙是安全且可以幫助戒菸」。電子煙業者宣稱能幫助戒菸是宣傳手法。<br>依據衛生福利部每年受理電子煙檢驗，結果顯示，有 8 成電子煙含有「具成癮性之尼古丁」。"
     },
     {
-        "q":"456先生因參加魷魚遊戲，認識了使用傳統菸和電子煙的朋友。為了朋友健康著想，想提供他戒菸資源，請問免費戒菸專線為何？",
-        "Options_A":"0800-636363。",
-        "Options_B":"080-8825252。",
-        "Options_C":"0800-555688。",
+        "q":" 456 先生因參加魷魚遊戲，認識了使用傳統菸和電子煙的朋友。為了朋友健康著想，想提供他戒菸資源，請問免費戒菸專線為何？",
+        "Options_A":"0800-636363",
+        "Options_B":"0800-525252",
+        "Options_C":"0800-383838",
+        "Options_D":"",
         "ans":0,
-        "hint":"小知識：衛生福利部國民健康署，免費戒菸專線：0800-636363(戒菸好靠山)。"
+        "hint":"【健康知識】<br>衛生福利部國民健康署，免費戒菸專線：0800-636363(戒菸好靠山)。"
     },
     {
         "q":"中原大學自創校至今，皆為無菸校園，下列敘述何者正確？",
-        "Options_A":"無菸校園是指校園禁止使用所有紙菸、電子煙、加熱式菸品。",
-        "Options_B":"在校園抽菸(含電子煙)，將依校規記過懲處。",
-        "Options_C":"以上皆是",
-        "ans":2,
-        "hint":"小知識：本校自創校以來即推動「無菸校園」，時有餘60餘年。此項優良傳統皆為全校師生共同的支持與配合，唯此一工作之推展不能須臾怠惰，否則將前功盡棄。因此，為維護此一優良傳統校風並維護全校師生健康不受菸害影響，持續推動無菸校園環境是必需且重要的。"
+        "Options_A":"無菸校園是指校園禁止使用所有紙菸、電子煙、加熱式菸品",
+        "Options_B":"學務處結合軍訓室，每日實施禁菸巡查",
+        "Options_C":"在校園抽菸(含電子煙)，將依校規記過懲處",
+        "Options_D":"以上皆是",
+        "ans":3,
+        "hint":"【健康知識】<br>本校自創校以來即推動「無菸校園」。<br>此項優良傳統需全校師生共同支持與配合，維護師生健康不受菸害影響，持續推動無菸校園環境，是必需且重要的"
     },
 ]
 var test6 =[
     {
         "q":"456先生參加魷魚遊戲，與所有參賽者同住一室。請問，與愛滋感染者共用馬桶、共用洗衣設備，會不會被感染愛滋？",
         "Options_A":"當然會，請自己獨居。",
-        "Options_B":"不會，愛滋病毒是需要透過體液、血液的交換才有比較高的感染風險，有特定的傳染途徑。",
-        "Options_C":"當然會，世界無奇不有，甚麼狀況都會發生。",
+        "Options_B":"可能會，世界無奇不有，甚麼狀況都會發生。",
+        "Options_C":"不會，愛滋病毒傳染途徑是透過體液、血液的交換，不會經由未損傷的皮膚侵入人體。",
         "Options_D":"",
-        "ans":1,
-        "hint":"小知識：愛滋病毒是透過血液或體液(精液、陰道分泌物、母乳)接觸黏膜或皮膚傷口而傳染的，例如：不安全性行為、共用針具(針頭、針筒、稀釋液)、感染愛滋病毒的母親哺餵母乳。"
+        "Options_E":"",
+        "ans":2,
+        "hint":"【健康知識】<br>愛滋病毒是透過血液或體液(精液、陰道分泌物、母乳)接觸黏膜或皮膚傷口而傳染的，例如：不安全性行為、共用針具、感染愛滋病毒的母親哺餵母乳。"
     },
     {
         "q":"456先生參加魷魚遊戲，與所有參賽者同住一室。預防性病及愛滋病最經濟且有效的方式為何？",
@@ -178,20 +182,55 @@ var test6 =[
         "Options_B":"太害羞，不回答。",
         "Options_C":"全程正確使用保險套。",
         "Options_D":"",
+        "Options_E":"",
         "ans":2,
-        "hint":"小知識：愛滋病毒會透過不安全性行為而傳染，因此全程正確使用保險套能有效預防性病及愛滋病毒。"
+        "hint":"【健康知識】<br>愛滋病毒會透過不安全性行為而傳染，因此全程正確使用保險套能有效預防性病及愛滋病毒。"
     },
     {
-        "q":"456先生參加魷魚遊戲，與所有參賽者同住一室。關於愛滋病，下列敘述何者為是?",
-        "Options_A":"一般人誤以為同性戀者、性工作者是感染的高危險群，這是錯誤的。因為任何人只要從事可能造成傳染的風險行為，即有可能感染，並不僅僅侷限哪些族群，只有風險行為，沒有危險族群！",
-        "Options_B":"性行為中只要沒有全程正確的使用保險套，都可能傳染愛滋病毒。",
-        "Options_C":"曾有性行為者應至少進行1次愛滋篩檢；持續有無套性行為者，每年至少篩檢1次；若有感染風險行為（如與人共用針具、多重性伴侶、合併使用成癮性藥物、感染其他性傳染疾病等），則建議每3到6個月篩檢一次。",
-        "Options_D":"以上皆是",
-        "ans":3,
+        "q":"456 先生參加魷魚遊戲，與上百位參賽者同住一室。關於愛滋病，下列敘述何者為是?",
+        "Options_A":"任何人只要從事可能造成傳染的風險行為，即有可能感染，並不僅僅侷限於哪些族群，「只有風險行為，沒有危險族群」。",
+        "Options_B":"只要沒有全程正確的使用保險套，都可能傳染愛滋病毒。",
+        "Options_C":"愛滋匿名篩檢是準確、注重隱私且免費的，定期做匿名篩檢，面對自己，就是愛自己",
+        "Options_D":"可主動至醫院做匿名篩檢諮詢，同時至衛生福利部疾病管制署匿名諮詢網站，進行風險評估。",
+        "Options_E":"以上皆是",
+        "ans":4,
         "hint":""
     },
 ]
-
+var test7 =[
+    {
+        "q":" 001 先生今年 70 歲，在行走中突然倒地，456 先生確認他心跳停止，欲執行急救技術。請問，成人 CPR 壓胸與人工呼吸的比例?",
+        "Options_A":"15：2",
+        "Options_B":"30：2",
+        "Options_C":"30：10",
+        "ans":1,
+        "hint":"【健康知識】<br>成人 CPR 壓胸與人工呼吸的比例為 30：2。"
+    },
+    {
+        "q":"001 先生今年 70 歲，在行走中突然倒地，456 先生確認他心跳停止，欲執行急救技術。請問，成人 CPR 四字口訣?",
+        "Options_A":"叫、C、叫、D",
+        "Options_B":"C、D、叫、叫。",
+        "Options_C":"叫、叫、C、D",
+        "ans":2,
+        "hint":"【健康知識】<br>成人 CPR 口訣：叫(叫患者)、叫(叫求救)、C(執行壓胸)、D(AED 電擊)。"
+    },
+    {
+        "q":"001 先生今年 70 歲，在行走中突然倒地，456 先生確認他心跳停止，欲執行急救技術。請問，AED 使用四字口訣?",
+        "Options_A":"電、電、電、電",
+        "Options_B":"開、電、關、電",
+        "Options_C":"開、貼、插、電",
+        "ans":2,
+        "hint":"【健康知識】<br>AED 使用口訣：開(打開 AED 電源)、貼(貼上 2 片電擊貼片)、插(插上導線插座)、電(評估是否電擊)。2 片電擊貼片位置：患者左邊乳頭下方偏外側處(左下)及右邊乳頭上方(右上)。"
+    },
+    {
+        "q":"001 先生今年 70 歲，在行走中突然倒地，456 先生確認他心跳停止，要執行急救技術。請問，中原大學共有幾台 AED?",
+        "Options_A":"10",
+        "Options_B":"5",
+        "Options_C":"15",
+        "ans":2,
+        "hint":"【健康知識】<br>中原大學共有 15 台 AED，位於：維澈樓、教學大樓、電學大樓、恩慈宿舍、設計學院(望樓)、工學館、商學院、理學大樓、圖書館、衛保組、力行宿舍、體育館、薄膜中心、信實宿舍、熱誠宿舍"
+    },
+]
 var num1 = Math.floor(Math.random()*3);
 var num2 = Math.floor(Math.random()*3);
 var num3 = Math.floor(Math.random()*5);
@@ -232,20 +271,32 @@ var question5 = document.getElementById('question5');
 var q5a = document.getElementById('q5a');
 var q5b = document.getElementById('q5b');
 var q5c = document.getElementById('q5c');
+var q5d = document.getElementById('q5d');
 var a5a = document.getElementById('q5-a');
 var a5b = document.getElementById('q5-b');
 var a5c = document.getElementById('q5-c');
+var a5d = document.getElementById('q5-d');
 var question6 = document.getElementById('question6');
 var q6a = document.getElementById('q6a');
 var q6b = document.getElementById('q6b');
 var q6c = document.getElementById('q6c');
 var q6d = document.getElementById('q6d');
+var q6e = document.getElementById('q6e');
 var a6a = document.getElementById('q6-a');
 var a6b = document.getElementById('q6-b');
 var a6c = document.getElementById('q6-c');
 var a6d = document.getElementById('q6-d');
+var a6e = document.getElementById('q6-e');
+var question7 = document.getElementById('question7');
+var q7a = document.getElementById('q7a');
+var q7b = document.getElementById('q7b');
+var q7c = document.getElementById('q7c');
+var q7d = document.getElementById('q7d');
+var a7a = document.getElementById('q7-a');
+var a7b = document.getElementById('q7-b');
+var a7c = document.getElementById('q7-c');
 
-var bingo = document.getElementsByClassName('bingo')[0];
+var bingo = document.getElementsByClassName('bingo');
 var error = document.getElementsByClassName('error');
 var send = document.getElementsByClassName('send');
 var qaAll = document.getElementsByClassName('qaAll');
@@ -272,9 +323,9 @@ hint1.innerHTML =  test1[num1].hint;
 send[0].addEventListener("click",()=>{
     if(option1[test1[num1].ans].checked){
         error[0].style.display="none";
-        bingo.style.display = "flex";
+        bingo[0].style.display = "flex";
         setTimeout(()=>{
-            bingo.style.opacity ="1";
+            bingo[0].style.opacity ="1";
 
         },10)
     }else{
@@ -300,9 +351,9 @@ hint2.innerHTML =  test2[num2].hint;
 send[1].addEventListener("click",()=>{
     if(option2[test2[num2].ans].checked){
         error[1].style.display="none";
-        bingo.style.display = "flex";
+        bingo[1].style.display = "flex";
         setTimeout(()=>{
-            bingo.style.opacity ="1";
+            bingo[1].style.opacity ="1";
 
         },10)
     }else{
@@ -324,9 +375,9 @@ hint3.innerHTML =  test3[num3].hint;
 send[2].addEventListener("click",()=>{
     if(option3[test3[num3].ans].checked){
         error[2].style.display="none";
-        bingo.style.display = "flex";
+        bingo[2].style.display = "flex";
         setTimeout(()=>{
-            bingo.style.opacity ="1";
+            bingo[2].style.opacity ="1";
 
         },10)
     }else{
@@ -349,9 +400,9 @@ hint4.innerHTML =  test4[num4].hint;
 send[3].addEventListener("click",()=>{
     if(option4[test4[num4].ans].checked){
         error[3].style.display="none";
-        bingo.style.display = "flex";
+        bingo[3].style.display = "flex";
         setTimeout(()=>{
-            bingo.style.opacity ="1";
+            bingo[3].style.opacity ="1";
 
         },10)
     }else{
@@ -368,13 +419,17 @@ q5a.innerHTML = test5[num5].Options_A;
 q5b.innerHTML = test5[num5].Options_B;
 q5c.innerHTML = test5[num5].Options_C;
 hint5.innerHTML =  test5[num5].hint;
-
+if(test5[num5].Options_D==""){
+    a5d.style.display = "none";
+}else{
+    q5d.innerHTML = test5[num5].Options_D;
+}
 send[4].addEventListener("click",()=>{
     if(option5[test5[num5].ans].checked){
         error[4].style.display="none";
-        bingo.style.display = "flex";
+        bingo[4].style.display = "flex";
         setTimeout(()=>{
-            bingo.style.opacity ="1";
+            bingo[4].style.opacity ="1";
 
         },10)
     }else{
@@ -397,12 +452,17 @@ if(test6[num6].Options_D==""){
 }else{
     q6d.innerHTML = test6[num6].Options_D;
 }
+if(test6[num6].Options_E==""){
+    a6e.style.display = "none";
+}else{
+    q6e.innerHTML = test6[num6].Options_E;
+}
 send[5].addEventListener("click",()=>{
     if(option6[test6[num6].ans].checked){
         error[5].style.display="none";
-        pass.style.display = "flex";
+        bingo[5].style.display = "flex";
         setTimeout(()=>{
-            pass.style.opacity ="1";
+            bingo[5].style.opacity ="1";
 
         },10)
         
@@ -416,12 +476,53 @@ send[5].addEventListener("click",()=>{
     
 })
 
+question7.innerHTML = test7[num7].q;
+q7a.innerHTML = test4[num7].Options_A;
+q7b.innerHTML = test4[num7].Options_B;
+q7c.innerHTML = test4[num7].Options_C;
+hint7.innerHTML =  test4[num4].hint;
 
-bingo.addEventListener("click",()=>{
-    bingo.style.display="none";
-    bingo.style.opacity="0";
-    for(var b=0;b<qaAll.length-1;b++){
-        qaAll[b].style.display="none";
+send[6].addEventListener("click",()=>{
+    if(option7[test7[num7].ans].checked){
+        error[6].style.display="none";
+        bingo[6].style.display = "flex";
+        setTimeout(()=>{
+            bingo[6].style.opacity ="1";
+
+        },10)
+    }else{
+        error[6].style.display="block";
+        setTimeout(()=>{
+            error[6].style.opacity ="1";
+
+        },10)
+    }
+    
+})
+// bingo.addEventListener("click",()=>{
+//     bingo.style.display="none";
+//     bingo.style.opacity="0";
+//     for(var b=0;b<qaAll.length-1;b++){
+//         qaAll[b].style.display="none";
+//     }
+//     setTimeout(()=>{
+//         squid.src="./images/squid2.png";
+//     },300)
+//     setTimeout(()=>{
+//         squid.src="./images/squid1.png";
+//     },500)
+// })
+
+
+for(var b=0;b<qaAll.length;b++){
+    bingo[b].addEventListener("click",closeBox)
+}
+
+function closeBox(){
+    for(var c=0;c<qaAll.length;c++){
+        bingo[c].style.display="none";
+        bingo[c].style.opacity="0";
+        qaAll[c].style.display="none";
     }
     setTimeout(()=>{
         squid.src="./images/squid2.png";
@@ -429,4 +530,4 @@ bingo.addEventListener("click",()=>{
     setTimeout(()=>{
         squid.src="./images/squid1.png";
     },500)
-})
+}
