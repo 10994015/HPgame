@@ -35,7 +35,7 @@ function addBar(){
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
         
         
     }
@@ -44,42 +44,42 @@ function addBar(){
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     if(times==42){
         qaAll[2].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     if(times==56){
         qaAll[3].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     if(times==70){
         qaAll[4].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     if(times==85){
         qaAll[5].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     if(times==100){
         qaAll[6].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },200)
+        },500)
     }
     
 }

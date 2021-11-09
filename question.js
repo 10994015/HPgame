@@ -315,6 +315,7 @@ var hint3 = document.getElementById("hint3");
 var hint4 = document.getElementById("hint4");
 var hint5 = document.getElementById("hint5");
 var hint6 = document.getElementById("hint6");
+var hint7 = document.getElementById("hint7");
 question1.innerHTML = test1[num1].q;
 q1a.innerHTML = test1[num1].Options_A;
 q1b.innerHTML = test1[num1].Options_B;
@@ -477,10 +478,10 @@ send[5].addEventListener("click",()=>{
 })
 
 question7.innerHTML = test7[num7].q;
-q7a.innerHTML = test4[num7].Options_A;
-q7b.innerHTML = test4[num7].Options_B;
-q7c.innerHTML = test4[num7].Options_C;
-hint7.innerHTML =  test4[num4].hint;
+q7a.innerHTML = test7[num7].Options_A;
+q7b.innerHTML = test7[num7].Options_B;
+q7c.innerHTML = test7[num7].Options_C;
+hint7.innerHTML =  test7[num7].hint;
 
 send[6].addEventListener("click",()=>{
     if(option7[test7[num7].ans].checked){
@@ -513,8 +514,17 @@ function closeBox(){
     }
     setTimeout(()=>{
         squid.src="./images/squid2.png";
-    },300)
+    },500)
     setTimeout(()=>{
         squid.src="./images/squid1.png";
-    },500)
+    },1000)
 }
+
+
+bingo[6].addEventListener("click",()=>{
+    pass.style.display="flex";
+    setTimeout(()=>{
+        pass.style.opacity="1";
+    },10)
+})
+
