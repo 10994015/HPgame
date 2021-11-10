@@ -19,8 +19,14 @@
     height: 100vh;
     background: transparent;
     z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.hiddenBtn{
+    width: 100px;
+    height: 35px;
+}
 .progressBar{
     width: calc(100% - 2px);
     height: 30px;
@@ -56,22 +62,22 @@
     right: 0;
     background: rgba(0, 0, 0, .5);
     display: none;
-    z-index: 99;
     justify-content: center;
     align-items: center;
     z-index: 999999999999;
 }
 .qa{
     position: absolute;
-    top: 30%;
+    top: 280px;
     left: calc(50% - 180px);
     width: 340px;
-    height: 350px;
+    height: 280px;
     border:1px #000 solid;
     z-index: 999;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
 }
 .qa > p{
     margin-bottom: 10px;
@@ -92,7 +98,7 @@
 .send{
     position: absolute;
     left: 10%;
-    bottom: 10px;
+    bottom: 15px;
     outline: none;
     border:none;
     width: 80%;
@@ -151,7 +157,7 @@
     width: 100px;
     height: auto;
     position: absolute;
-    bottom: 100px;
+    bottom: 8%;
     left: 38%;
 }
 #pass{
@@ -216,5 +222,28 @@
         transition: .5s;
         display: none;
         text-align: center;
+    }
+}
+
+@media screen and (max-height:651px){
+    #player{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        bottom: 3%;
+        left: 38%;
+    }
+    .qa{
+        position: absolute;
+        top: 230px;
+        left: calc(50% - 180px);
+        width: 340px;
+        height: 250px;
+        border:1px #000 solid;
+        z-index: 999;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 13px;
     }
 }
