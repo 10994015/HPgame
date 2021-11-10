@@ -5,6 +5,7 @@ var progressBarClass = document.getElementsByClassName('progressBar');
 var squid = document.getElementById('squid');
 var player = document.getElementById('player');
 var hiddenLayer = document.getElementById('hiddenLayer');
+var touchH1 = document.getElementById('touchH1');
 hiddenLayer.addEventListener("click",addBar);
 
 html = '';
@@ -15,6 +16,10 @@ squid.src="./images/squid1.png";
 player.src="./images/player"+src+".png";
 
 function addBar(){
+    touchH1.style.opacity="0";
+    setTimeout(()=>{
+        touchH1.style.display="none";
+    },300)
     html += '<div class="progressBarItem"></div>';
     progressBar.innerHTML = html;
     pos-=5;
@@ -74,7 +79,7 @@ function addBar(){
             squid.src="./images/squid3.png";
         },400)
     }
-    if(times==100){
+    if(times==2){
         qaAll[6].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
