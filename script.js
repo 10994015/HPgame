@@ -10,10 +10,18 @@ var bingo = document.getElementsByClassName('bingo');
 var clickBtn = document.getElementsByClassName('clickBtn');
 var randomBtnClass = document.getElementsByClassName('randomBtn');
 var ran = document.querySelector('#randomBtn1 > a');
+var second = document.getElementById('second');
+var addscore = document.getElementById('addscore');
 // hiddenLayer.addEventListener("click",addBar);
 // var randomBtn1 = document.getElementById('randomBtn1');
-console.log(ran);
+var secondTime=0;
+clacSenend = setInterval(() => {
+    secondTime+=1;
+}, 1000);
 
+function ST(){
+    
+}
 var nb = Math.floor(Math.random()*5)+1;
 html = '';
 times = 0;
@@ -22,16 +30,16 @@ pos = 0;
 squid.src="./images/squid1.png";
 player.src="./images/player"+src+".png";
 
-main.addEventListener("click",run);
+touchH1.addEventListener("click",run);
 
-main.addEventListener("click",()=>{
+touchH1.addEventListener("click",()=>{
     touchH1.style.opacity="0";
-    touchH1.style.transition=".5s"
+    hiddenLayer.style.transition=".5s";
+    setTimeout(()=>{
+        hiddenLayer.style.display="none";
+    },500)
 });
-function btnRun(){
-   
-    
-}
+
 function Appear(){
     var randomBtn = document.getElementById('randomBtn'+(Math.floor(Math.random()*1)+1));
     randomBtn.style.display = "block";
@@ -43,11 +51,18 @@ for(var a=0;a<clickBtn.length;a++){
 function disappear(){
     times+=1;
     console.log(times);
+    addscore.style.opacity="1";
+    addscore.style.transition=".3s";
+    addscore.style.top="10px";
+    setTimeout(()=>{
+        addscore.style.opacity="0";
+        addscore.style.top="30px";
+    },400)
     html += '<div class="progressBarItem"></div>';
     progressBar.innerHTML = html;
     progressBarNum.textContent = Number(progressBarNum.textContent)+1;
     progressBarNum.innerHTML = times*2+"%";
-    
+
     for(var d=0;d<randomBtnClass.length;d++){
         randomBtnClass[d].style.display="none";
     }
@@ -159,3 +174,7 @@ function start(){
         },400)
     }
 }
+bingo[bingo.length-1].addEventListener("click",()=>{
+    clearInterval(clacSenend);
+    second.innerHTML = secondTime;
+})
