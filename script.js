@@ -73,6 +73,7 @@ function clearAppear(){
     }
 }
 function run(){
+    touchH1.removeEventListener("click",run);
     cycle=setInterval(() => {
         clearAppear();
         Appear();
@@ -104,77 +105,91 @@ function start(){
     
     if(times==6){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[0].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
         
     }
     if(times==12){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[1].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
     if(times==20){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[2].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
     if(times==28){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[3].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
     if(times==36){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[4].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
     if(times==42){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[5].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
     if(times==50){
         times+=1;
+        html += '<div class="progressBarItem"></div>';
+        progressBar.innerHTML = html;
         clearInterval(gameGo);
         clearInterval(cycle);
         qaAll[6].style.display = "flex";
         squid.src="./images/squid2.png";
         setTimeout(()=>{
             squid.src="./images/squid3.png";
-        },400)
+        },300)
     }
 }
 bingo[bingo.length-1].addEventListener("click",()=>{
     clearInterval(clacSenend);
-    second.innerHTML = secondTime;
+    second.innerHTML = "共花了"+secondTime+"秒";
 })
